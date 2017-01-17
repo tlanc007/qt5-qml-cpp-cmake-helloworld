@@ -23,11 +23,13 @@ I spent a number of hours searching for something like this.  An example that sh
 As I didn't find what I was looking for, I ended up writing this example from bits of info I could find.
 
 ## Build Instructions
+Assuming you already have an appropriate qt5 environment.
+
 1. mkdir build
 2. cd build
 3. cmake ..
 4. make
-5. run qmlApp
+5. qmlApp
 
 For osx (macOS) users for step 3 you may need something like:
 
