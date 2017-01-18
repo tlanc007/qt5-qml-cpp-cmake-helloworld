@@ -7,6 +7,7 @@ Rectangle {
 
     Text {
         id: helloText
+        objectName: "helloText"
         text: "Hello world!"
         y: 30
         anchors.horizontalCenter: page.horizontalCenter
