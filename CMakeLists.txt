@@ -30,7 +30,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake/mod
 
 set(CMAKE_AUTOMOC ON)
 
-find_package(Qt5 COMPONENTS Widgets Qml Quick Test REQUIRED)
+find_package(Qt5 COMPONENTS Qml Quick Test REQUIRED)
 
 # enable QML debugging
 string(TOLOWER "${CMAKE_BUILD_TYPE}" cmake_build_type_lower)
@@ -75,7 +75,7 @@ set(SRC_LIST main.cpp)
 add_executable(${PROJECT_NAME} ${SRC_LIST})
 
 # links Qt5Core to the project executable
-target_link_libraries(${PROJECT_NAME} Qt5::Widgets Qt5::Qml Qt5::Quick)
+target_link_libraries(${PROJECT_NAME} Qt5::Qml Qt5::Quick)
 
 add_subdirectory (mp)
 
