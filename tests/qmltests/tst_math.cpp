@@ -1,6 +1,6 @@
 
 #include <QtQuickTest/quicktest.h>
 
-QUICK_TEST_MAIN(math)
+QUICK_TEST_MAIN(test)
 
 
